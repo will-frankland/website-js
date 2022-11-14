@@ -468,3 +468,12 @@ main__btn:after {
 }
 
 /* Footer CSS */
+
+.footer__container {
+  background-color: #141414;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
