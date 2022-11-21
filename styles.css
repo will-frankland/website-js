@@ -351,57 +351,6 @@ main__btn:after {
 
 /* Resume Section */
 
-.resume {
-  background: #141414;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-}
-
-.resume h1 {
-  background-color: #ff8177;
-  background-image: linear-gradient(
-    to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
-    );
-    background-size: 100%;
-    margin-bottom: 1.5rem;
-    font-size: 2.5rem;
-    -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-.resume h2 {
-  background-color: #ff8177;
-  background-image: linear-gradient(
-    to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
-    );
-    background-size: 100%;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-.resume ul {
-  color: #fff;
-}
 
 
 
