@@ -15,7 +15,12 @@ body {
   color: #f77062;
   font-weight: 600;
   text-transform: uppercase;
-  
+}
+
+.group-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .resume__container {
@@ -52,6 +57,16 @@ body {
     margin-top: 1rem;
     margin-left: 2rem;
     line-height: 2;
+  }
+
+  /* Education & Certificates */
+
+  .school__item {
+    margin-top: 2rem;
+  }
+
+  .school__name {
+    font-weight: 700;
   }
 
 
