@@ -7,9 +7,15 @@
 
 /* Resume styling */
 body {
-  font-family: 'Kumbh Sans', sans-serif;
   background: #131313;
   color: #fff;
+}
+
+.title {
+  color: #f77062;
+  font-weight: 600;
+  text-transform: uppercase;
+  
 }
 
 .resume__container {
@@ -38,6 +44,14 @@ body {
   border-radius: 4rem;
   width: 173px;
   height: 163px;
+  }
+
+  /* Skills Summary */
+
+  .skill__list {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
   }
 
 
