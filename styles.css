@@ -5,6 +5,42 @@
   font-family: 'Kumbh Sans', sans-serif;
 }
 
+/* Resume styling */
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background: #131313;
+  color: #fff;
+}
+
+.resume__container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  padding: 5rem;
+  background-color: black;
+}
+
+.profile {
+  grid-column: 1 / -1;
+  margin-bottom: 2rem;
+}
+
+/* Resume Profile */
+
+.profile__container {
+  display: flex;
+  gap: 2rem;
+}
+
+#profileImg {
+  max-width: 250px;
+  border-radius: 4rem;
+  width: 173px;
+  height: 163px;
+  }
+
+
 .navbar {
   background: #131313;
   height: 80px;
