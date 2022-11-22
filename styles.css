@@ -356,7 +356,7 @@ body {
   text-decoration: none;
 }
 
-main__btn:after {
+.main__btn:after {
   position: absolute;
   content: '';
   top: 0;
@@ -439,14 +439,10 @@ main__btn:after {
   }
 }
 
-/* Resume Section */
 
+/* projects Section CSS */
 
-
-
-/* Services Section CSS */
-
-.services {
+.projects {
   background: #141414;
   display: flex;
   flex-direction: column;
@@ -454,7 +450,7 @@ main__btn:after {
   height: 100vh;
 }
 
-.services h1 {
+.projects h1 {
   background-color: #ff8177;
   background-image: linear-gradient(
     to right,
@@ -474,13 +470,13 @@ main__btn:after {
   -moz-text-fill-color: transparent;
 }
 
-.services__container {
+.projects__container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.services__card {
+.projects__card {
   margin: 1rem;
   height: 525px;
   width: 400px;
@@ -496,7 +492,7 @@ main__btn:after {
   color: #fff;
 }
 
-.services__card:nth-child(2) {
+.projects__card:nth-child(2) {
   background-image: linear-gradient(
     to bottom,
     rgba(0,0,0,0) 0%,
@@ -505,19 +501,19 @@ main__btn:after {
     url('/images/pic4.jpg');
 }
 
-.services h2 {
+.projects h2 {
   position: absolute;
   top: 350px;
   left: 30px;
 }
 
-.services__card p {
+.projects__card p {
   position: absolute;
   top: 400px;
   left: 30px;
 }
 
-.services__card button {
+.projects__card button {
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -531,33 +527,33 @@ main__btn:after {
   cursor: pointer;
 }
 
-.services__card:hover {
+.projects__card:hover {
   transform: scale(1.075);
   transition: 0.2s ease-in;
   cursor: pointer;
 }
 
 @media screen and (max-width: 960px) {
-  .services {
+  .projects {
     height: 1600px;
   }
 
-  .services h1 {
+  .projects h1 {
     font-size: 2rem;
     margin-top: 12rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .services {
+  .projects {
     height: 1400px;
   }
 
-  .services h1 {
+  .projects h1 {
     font-size: 1.2rem;
   }
 
-  .services__card {
+  .projects__card {
     width: 300px;
   }
 }
