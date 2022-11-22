@@ -1,74 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume</title>
-  <link rel="stylesheet" href="../styles.css">
-</head>
-<body>
-  <div class="resume__container">
-    <div class="profile">
-      <div class="profile__container">
-        <div class="profile__profileImg">
-          <img id="profileImg" src="../images/will 2-min.jpg" alt="Will Frankland"
-              >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="resume__container">
+      <div class="profile">
+        <div class="profile__container">
+          <div class="profile__profileImg">
+            <img
+              id="profileImg"
+              src="../images/will 2-min.jpg"
+              alt="Will Frankland"
+            />
+          </div>
+          <div>
+            <h1 class="profile__name">
+              <span class="profile__firstName">Will</span>
+              <span class="profile__lastName">Frankland</span>
+            </h1>
+            <p class="profile__title">Full Stack Developer</p>
+            <p class="description">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <a
+              class="downloadBtn"
+              href="./Will Frankland Resume .pdf"
+              download="Will Frankland Resume.pdf"
+              >Download Resume</a
+            >
+          </div>
         </div>
-        <div>
-          <h1 class="profile__name">
-            <span class="profile__firstName">Will</span>
-            <span class="profile__lastName">Frankland</span>
-          </h1>
-          <p class="profile__title">Full Stack Developer</p>
-          <p class="description">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-          <a class="downloadBtn" href="./Will Frankland Resume .pdf" download="Will Frankland Resume.pdf">Download Resume</a>
+      </div>
+      <div class="group-1">
+        <div class="skills__summary">
+          <h3 class="title">Skills Summary</h3>
+          <ul class="skill__list">
+            <li>
+              Confident in managing projects and processes with strict deadlines
+              and budget caps
+            </li>
+            <li>
+              Experience assisting and coordinating projects in a manufacturing
+              environment
+            </li>
+            <li>
+              Comfortable using AutoCAD, Pro Engineer Creo and familiarity with
+              Solidworks
+            </li>
+            <li>
+              Advanced knowledge of Microsoft Office suite (Excel, PowerPoint,
+              Word, Outlook)
+            </li>
+            <li>Adept with the preparation of technical documents and SOPs</li>
+          </ul>
+        </div>
+        <div class="education">
+          <h3 class="title">Education & Certificates</h3>
+          <div class="school__item">
+            <h4 class="school__name">
+              Web Development Bootcamp (Lighthouse Labs, Toronto)
+            </h4>
+            <p class="description">
+              Languages / Frameworks: JavaScript, Node.js, React, HTML, CSS, SQL
+            </p>
+          </div>
+          <div class="school__item">
+            <h4 class="school__name">
+              Mechanical Engineering (Bedford College, UK)
+            </h4>
+            <p class="description">College Certificate</p>
+          </div>
+          <div class="school__item">
+            <h4 class="school__name">
+              Mechanical Engineering (City College Plymouth, UK)
+            </h4>
+            <p class="description">
+              College Diploma Study Subjects: Engineering Mathematics, Fluid
+              Dynamics, Engineering Principles & Design, Project Management,
+              Application of Mechanical Systems, Pneumatics and Hydraulics,
+              Analytical Methods, and Health & Safety
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="group-2">
+        <div class="exp">
+          <h3 class="title">Professional Experience</h3>
+          <div class="exp__item">
+            <p class="item__preTitle">Oct 2021 - Present</p>
+            <h4 class="item__title">The Loose Moose</h4>
+            <p class="item__subtitle">Bartender</p>
+            <p class="description">
+              <ul class="description__list">
+                <li>Bartending in high volume Downtown Toronto bar</li>
+              </ul>
+            </p>
+          </div>
+          <div class="exp__item">
+            <p class="item__preTitle">May 2019 - June 2021</p>
+            <h4 class="item__title">Scheidt & Bachmann</h4>
+            <p class="item__subtitle">Senior Field Service Technician</p>
+            <p class="description">
+              <ul class="description__list">
+                <li> Created brand new technical documentation and SOPs on device function and maintenance which became the source document for reference globally</li>
+                <li> Showed initiative by building a database that reduced return rate of failed devices by 20% through indexing and tracking recurring faults</li>
+                <li> Utilized drawings, schematics and layouts whilst repairing and installing machinery and devices</li>
+                <li> Promoted from Field Service Technician to Senior Field Service Technician under two years</li>
+              </ul>
+            </p>
+          </div>
+          <div class="exp__item">
+            <p class="item__preTitle">Dec 2018 - April 2019</p>
+            <h4 class="item__title">Babcock International - Marine Division</h4>
+            <p class="item__subtitle">Technical Support Technician</p>
+            <p class="description">
+              <ul class="description__list">
+                <li> Amended and updated engineering drawings and datum packs relating to nuclear submarines using AutoCAD</li>
+                <li> Utilized Autodesk products and a variety of in-house databases to accurately catalogue vessel modifications</li>
+                <li> Performed onboard validations for current and archived files to create thorough audit trails</li>
+                <li> Collaborated and supported UK Government and BAE Aerospace requests to maintain accurate cross-company records of all Royal Navy submarine classes</li>
+                <li> Provided cross-departmental support across a variety of teams, assisting in high workload volume situations with time-sensitive requirements</li>
+              </ul>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="group-1">
-      <div class="skills__summary">
-        <h3 class="title">Skills Summary</h3>
-        <ul class="skill__list">
-          <li>Confident in managing projects and processes with strict deadlines and budget caps</li>
-          <li>Experience assisting and coordinating projects in a manufacturing environment</li>
-          <li>Comfortable using AutoCAD, Pro Engineer Creo and familiarity with Solidworks</li>
-          <li>Advanced knowledge of Microsoft Office suite (Excel, PowerPoint, Word, Outlook)</li>
-          <li>Adept with the preparation of technical documents and SOPs</li>
-        </ul>
-      </div>
-      <div class="education">
-        <h3 class="title">Education & Certificates</h3>
-        <div class="school__item">
-          <h4 class="school__name">Web Development Bootcamp (Lighthouse Labs, Toronto)</h4>
-          <p class="description">
-            Languages / Frameworks: JavaScript, Node.js, React, HTML, CSS, SQL
-          </p>
-        </div>
-        <div class="school__item">
-          <h4 class="school__name">Mechanical Engineering (Bedford College, UK)</h4>
-          <p class="description">
-            College Certificate  
-          </p>
-        </div>
-        <div class="school__item">
-          <h4 class="school__name">Mechanical Engineering (City College Plymouth, UK)</h4>
-          <p class="description">
-            College Diploma
-            Study Subjects: Engineering Mathematics, Fluid Dynamics, Engineering Principles & Design, Project Management, Application of Mechanical Systems, Pneumatics and Hydraulics, Analytical Methods, and Health & Safety
-          </p>
-        </div>
-      </div>
-      <div class="professional__experience">
-        <h3 class="title">Professional Experience</h3>
-        <div class="work__item">
-          <p class="description"></p>
-        </div>
-      </div>
-    </div>
-    <div class="group-2"></div>
-  </div>
-</body>
+  </body>
 </html>

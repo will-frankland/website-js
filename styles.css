@@ -6,6 +6,14 @@
 }
 
 /* Resume styling */
+
+.description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
 body {
   background: #131313;
   color: #fff;
@@ -15,6 +23,7 @@ body {
   color: #f77062;
   font-weight: 600;
   text-transform: uppercase;
+  margin-top: 2rem;
 }
 
 .group-1 {
@@ -67,6 +76,22 @@ body {
 
   .school__name {
     font-weight: 700;
+  }
+
+  /* Professional Experience */
+
+  .exp__item {
+    margin-top: 2rem;
+  }
+
+  .item__preTitle {
+    margin-bottom: 15px;
+  }
+
+  .description__list {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    line-height: 2;
   }
 
 
